@@ -1,8 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+}
 #about{
     text-align: center;
-    background-image: linear-gradient(rgba( 0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)), url('https://bit.ly/2I2FxHm');
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)), url('https://bit.ly/2vqNSBP');
     opacity:1;
     background-repeat:no-repeat;
     color :white;
-    background-size: 1500px 500px
 }
