@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    text-align: center;
 }
 #about{
     text-align: center;
@@ -8,4 +9,5 @@ body{
     opacity:1;
     background-repeat:no-repeat;
     color :white;
+    background-position-x:center;
 }
