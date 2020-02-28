@@ -64,7 +64,7 @@
                 <div class="col-6">
             <div class="form-group">
               <label for="size">Size:</label>
-              <select name="size" class="form-control" required>
+              <select name="size" id="size" class="form-control" required>
                 <option value="small">Small @ 500 Ksh</option>
                   <option value="small">Small @ 500 Ksh</option>
                   <option value="medium">medium @ 900 ksh</option>
@@ -75,7 +75,7 @@
             <div class="col-6">
             <div class="form-group">
                 <label for="number">Number:</label>
-                <select name="number" class="form-control">
+                <select name="number" id="number" class="form-control">
                     <option value="0">0</option>
                      <option value="1">1</option>
                     <option value="2">2</option>
@@ -94,8 +94,8 @@
             <div class="row">
                 <div class="col-6">
             <div class="form-group">
-                <label for="crust">Crust:</label>
-                <select name="Crust" class="form-control">
+                <label for="crust" >Crust:</label>
+                <select name="Crust" id="crust" class="form-control">
                     <option value="crispy ">Crispy @ 200 Ksh</option>
                     <option value="stuffed">Stuffed @ 250 Ksh</option>
                     <option value="glutten-free">Glutten-free @ 300 Ksh</option>
@@ -105,7 +105,7 @@
             <div class="col-6">
             <div class="form-group">
                 <label for="topping">Topping:</label>
-                <select name="topping" class="form-control">
+                <select name="topping" id="topping" class="form-control">
                     <option value="onion">Onion @ 200 Ksh</option>
                     <option value="sausage">Sausage @ 250 ksh</option>
                     <option value="bacon">Bacon @ 300 Ksh</option>
@@ -120,6 +120,9 @@
               </div>
             <button type="submit" class="btn btn-warning">checkout</button>
           </form>
+          <ul id="total">
+              
+          </ul>
     </div>
     <footer class="page-footer ">
 
