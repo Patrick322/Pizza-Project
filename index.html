@@ -37,11 +37,18 @@
     </nav>
     <h1>Da 'Vinci Pizza Palace.</h1>
     <div id="home">
-       
+     <div class="row">
+         <div class="col-4">
          <img src="https://bit.ly/3a8pkMK">
+         </div>
+         <div class="col-4">
          <img src="https://bit.ly/32vM2Ml">
+         </div>
+         <div class="col-4">
          <img src="https://bit.ly/2wSXUfz">
+         </div>
     </div>
+    </div><br><br>
     <div id="about">
         <p>It all started in 2010. Our first store was opened in Mombasa.Our Pizza stores have opened since.</p>
         <p>Since we opened our first store in 2010, we’ve been making our thin crust pizza from scratch when you order it. </p>
@@ -49,7 +56,54 @@
           <p>We pride ourselves in offering you the very best pizza  with a side of our famous House dressing.</p>
     </div>
     <div id="order">
-
+        <form>
+            <div class="row">
+                <div class="col-6">
+            <div class="form-group">
+              <label for="size">Size:</label>
+              <select name="size" class="form-control">
+                  <option value="small">Small</option>
+                  <option value="medium">medium</option>
+                  <option value="large">Large</option>
+              </select>
+            </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="number">Number:</label>
+                <select name="number" class="form-control">
+                     <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option> 
+                    <option value="4">4</option> 
+                    <option value="5">5</option> 
+                    <option value="6">6</option> 
+                    <option value="7">7</option> 
+                    <option value="8">8</option> 
+                    <option value="9">9</option> 
+                    <option value="10">10</option> 
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="crust">Crust:</label>
+                <select name="Crust" class="form-control">
+                    <option value="crispy">Crispy</option>
+                    <option value="stuffed">Stuffed</option>
+                    <option value="glutten-free">Glutten-free</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="topping">Topping:</label>
+                <select name="topping" class="form-control">
+                    <option value="onion">Onion</option>
+                    <option value="sausage">Sausage</option>
+                    <option value="bacon">Bacon</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Delivery</button>
+              <button type="submit" class="btn btn-primary">Pick-up</button>
+            <button type="submit" class="btn btn-primary">checkout</button>
+          </form>
     </div>
     <footer class="page-footer font-small blue pt-4">
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
