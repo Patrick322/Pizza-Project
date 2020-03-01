@@ -32,4 +32,16 @@ li a:hover {
 .pick{
     color:black;
 }
+.modal-content{
+    /* background-image: linear-gradient(rgba( 0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)),url("https://bit.ly/3clDsEj");
+    background-repeat: no-repeat; */
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    width: 600px;
+    justify-items: center;
+
+}
+#about{
+    font-size: 20px;
+}
 

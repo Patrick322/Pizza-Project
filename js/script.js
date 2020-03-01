@@ -75,13 +75,16 @@ $(document).ready(function () {
 
 });
            
-//          $("#delivery").click(function () {
-//             prompt("please fill in your location")
-//              prompt("please enter your your Phone number")
-//              alert("Your pakage will arrive soon!")
-//              alert("Your delivery cost is ksh.150")
-//          });
+        $("#delivery").click(function () {
+           prompt("please fill in your location")
+             prompt("please enter your your Phone number")
+            alert("Your pakage will arrive soon!")
+             alert("Your delivery cost is ksh.150")
+        });
 
-//          $("#pick").click(function () {
-//             alert("please visit our nearest branch near you to pick up your package!!")
-//  });
+        $("#pick").click(function () {
+           alert("please visit our nearest branch near you to pick up your package!!")
+  });
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
