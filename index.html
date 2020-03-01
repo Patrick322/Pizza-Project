@@ -2,143 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Da vinci pizza palace</title>
-    <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Da vinci pizza palace</title>
+  <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <a class="navbar-brand" href="#"></a>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <img src="https://bit.ly/2VvNnRy" alt="logo" style="width:40px;">
-            </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#order">Order</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact us">Contact Us</a>
-                </li>
-            </ul>
-        </div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <a class="navbar-brand" href="#"></a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <img src="https://bit.ly/2VvNnRy" alt="logo" style="width:40px;">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#order">Order</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
+
     <div id="home">
-        <h1>Da 'Vinci Pizza Palace.</h1>
-      <div class="row"> 
-          <div class="col-4"> 
-         <img src="https://bit.ly/3a8pkMK">
-          </div>
-         <div class="col-4"> 
-         <img src="https://bit.ly/32vM2Ml">
-          </div>
-         <div class="col-2"> 
-         <img src="https://bit.ly/2TuCKfq">
-          </div>
-    </div> 
+      <h1>Da 'Vinci Pizza Palace.</h1>
+      <div class="row">
+        <div class="col-4">
+          <img src="https://bit.ly/3a8pkMK">
+        </div>
+        <div class="col-4">
+          <img src="https://bit.ly/32vM2Ml">
+        </div>
+        <div class="col-2">
+          <img src="https://bit.ly/2TuCKfq">
+        </div>
+      </div>
     </div><br>
     <div id="about"><br><br><br>
-        <h2>About us</h2>
-        <p>It all started in 2010. Our first store was opened in Mombasa.Our Pizza stores have opened since.</p>
-        <p>Since we opened our first store in 2010, we’ve been making our thin crust pizza from scratch when you order it.</p> 
-        <p>And we still use stone hearth ovens. That’s one of the reasons our unique pizzas are worth the wait!</p>
-        <p>We pride ourselves in offering you the very best pizza  with a side of our famous House dressing.</p>
-          <br> <br> <br> 
+      <h2>About us</h2>
+      <p>It all started in 2010. Our first store was opened in Mombasa.Our Pizza stores have opened since.</p>
+      <p>Since we opened our first store in 2010, we’ve been making our thin crust pizza from scratch when you order it.
+      </p>
+      <p>And we still use stone hearth ovens. That’s one of the reasons our unique pizzas are worth the wait!</p>
+      <p>We pride ourselves in offering you the very best pizza with a side of our famous House dressing.</p>
+      <br> <br> <br>
     </div>
-    <div  id="order">
-        <h2>Order Now!!</h2>
-        <form>
-          <label for="size">Pizza size:</label>
-          <select name="size" class="form-control" id="size" required>
-            <option> </option>
-            <option value="Large">Large @  ksh 1200</option>
-            <option value="Medium">Medium @ ksh 900</option>
-            <option value="Small">Small @ ksh 500 </option>
-          </select>
-    
-          <label for="crust">Pizza Crust:</label>
-          <select class="form-control" id="crust">
-            <option> </option><br>
-            <option value="Crispy">Crispy @  ksh 120 </option>
-            <option value="Stuffed">Stuffed @ ksh 160</option>
-            <option value="Glutten-free">Glutten-free @ ksh 200</option>
-          </select>
-    
-          <label>Topping;</label>
-          <select class="form-control" id="topping">
-            <option></option><br>
-            <option value="onion">onion @ ksh 120</option>
-            <option value="sausage">Sausage @ ksh 160 </option>
-            <option value="bacon">Bacon @ ksh 190 </option>
-          </select>
-        </form>
-        
-        
-        <br><br>
-        <div class="container">
-            <button type="button" class="btn btn-warning" data-toggle="modal" id="totalCost" data-target="#myModal">
-              Checkout
-            </button>
-            <div class="modal fade" id="myModal">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                
-                  <div class="modal-header">
-                    <h1 class="modal-title">Your Order</h1>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  </div>
-                  
-      
-                  <div class="modal-body">
-                    <div class="pick">
-                      <h1>Your order !!!</h1>
-                   Your pizza size  is:  <p id="pz">Pizza Size</p>
-                     crust: <p id="cr">Crust</p>
-                    Topping: <p id="to"> Topping</p>
+    <div id="order">
+      <h2>Order Now!!</h2>
+      <form>
+        <label for="size">Pizza size:</label>
+        <select name="size" class="form-control" id="size" required>
+          <option> </option>
+          <option value="Large">Large @ ksh 1200</option>
+          <option value="Medium">Medium @ ksh 900</option>
+          <option value="Small">Small @ ksh 500 </option>
+        </select>
+
+        <label for="crust">Pizza Crust:</label>
+        <select class="form-control" id="crust">
+          <option> </option><br>
+          <option value="Crispy">Crispy @ ksh 120 </option>
+          <option value="Stuffed">Stuffed @ ksh 160</option>
+          <option value="Glutten-free">Glutten-free @ ksh 200</option>
+        </select>
+
+        <label>Topping;</label>
+        <select class="form-control" id="topping">
+          <option></option><br>
+          <option value="onion">onion @ ksh 120</option>
+          <option value="sausage">Sausage @ ksh 160 </option>
+          <option value="bacon">Bacon @ ksh 190 </option>
+        </select>
+      </form>
+
+
+      <br><br>
+      <div class="container">
+        <button type="button" class="btn btn-warning" data-toggle="modal" id="totalCost" data-target="#myModal">
+          Checkout
+        </button>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <h1 class="modal-title">Your Order</h1>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+
+              <div class="modal-body">
+                <div class="pick">
+                  <h1>Your order !!!</h1>
+                  Your pizza size is: <p id="pz">Pizza Size</p>
+                  crust: <p id="cr">Crust</p>
+                  Topping: <p id="to"> Topping</p>
                   Total ksh= <P id="tc">Total Cost</P>
                   <h3><b>Delivery Method</b></h3>
                   <button type="button" class="btn btn-info" data-dismiss="modal" id="delivery">Delivery</button>
                   <button type="button" class="btn btn-info" data-dismiss="modal" id="pick">Pick-up</button>
-                    </div> 
-                  </div>
-        
-                  <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                  </div>
-                  
                 </div>
               </div>
-            </div>
+
+              <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
             </div>
           </div>
-        
-        
-        
-        
-      
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     <footer class="page-footer ">
-    <a href="0746561438"></a>
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://Davincipizzapalace.com/"> Davincipizzapalace.com</a>
-          </div>
+      <a href="0746561438"></a>
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://Davincipizzapalace.com/"> Davincipizzapalace.com</a>
+      </div>
     </footer>
 
-</div>
-    <script src="js/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
