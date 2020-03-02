@@ -19,8 +19,7 @@ A pizza palace that enables one to buy pizza.
 
 
 ## Live Link
-
-https://paulo-789.github.io/Akan-Names-generator/.
+ https://paulo-789.github.io/Pizza-Project/
 
 ## Technologies used
 * HTML 5-For the structuring .
