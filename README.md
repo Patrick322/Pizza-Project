@@ -1,5 +1,5 @@
 # Title
- AKAN NAME GENERATOR
+ Da 'vinci pizza
 
 
 ## Author
@@ -8,14 +8,13 @@
 
 
 ## Description
-Akan name generator is a system that collects data(details) from people and instantly generates the persons Akan name and day which he /she was born.
-The name are written in Ghana.
+A pizza palace that enables one to buy pizza.
 
 
 ## Project set up
  * Open the terminal in your device.
  * git clone
- * cd Akan-name -generator
+ * cd pizza-project
  * use code or atom to open
 
 
@@ -27,16 +26,16 @@ https://paulo-789.github.io/Akan-Names-generator/.
 * HTML 5-For the structuring .
 * CSS-For styling the page.
 * JAVASCRIPT-for functionality
+* Jquery for further functionality
+* Bootstrap for further styling
 
 
 ## Behaviour Driven Development(BDD)
-The website requires one to fill in the correct gender ,then the year you were  born, the day/date  and the century.
-Upon completion of filling in your details writings colored in red appears indicating your name and the day of the week you 
-were born.The values should be file in members.
+The website requires one to enter the size the select the crust and the topping .Then you are required to select the mode of delivery either you pick it up,or we deliver it to you at a cost.
 
 ### Contribution
  Feel free to air out you views of what you think I should improve on or what I should stop doing.
 
  ### Contacts
-  *Tel:0746561438
-  *Email:paulnyango021@gmail.com
+  
+  * Email:paulnyango021@gmail.com
