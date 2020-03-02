@@ -78,7 +78,7 @@ $(document).ready(function () {
     });
 
 });
-           
+           //delivery button
         $("#delivery").click(function () {
            prompt("please fill in your location")
              prompt("please enter your your Phone number")
@@ -89,6 +89,7 @@ $(document).ready(function () {
         $("#pick").click(function () {
            alert("please visit our nearest branch near you to pick up your package!!")
   });
+  
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
